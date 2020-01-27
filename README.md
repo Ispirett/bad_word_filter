@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 content = "This is great text nothing wrong here"
-BadWordFilter.filter(content)
+```BadWordFilter.filter(content)```
 response will be in json
 ## Development
 
