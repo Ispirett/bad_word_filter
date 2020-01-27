@@ -21,9 +21,9 @@ Or install it yourself as:
     $ gem install bad_word_filter
 
 ## Usage
-
-TODO: Write usage instructions here
-
+content = "This is great text nothing wrong here"
+BadWordFilter.filter(content)
+response will be in json
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
