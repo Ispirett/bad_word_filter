@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    bad_word_filter (0.1.0)
+    bad_word_filter (0.2.0)
+      rest-client
 
 GEM
   remote: https://rubygems.org/
@@ -18,6 +19,11 @@ GEM
     mime-types-data (3.2019.1009)
     netrc (0.11.0)
     rake (12.3.3)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.1.0-x64-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -42,13 +48,14 @@ GEM
     unf_ext (0.0.7.6)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   bad_word_filter!
   rake (~> 12.0)
   rest-client
-  rspec (~> 3.0)
+  rspec (~> 3.2)
 
 BUNDLED WITH
    2.1.3
